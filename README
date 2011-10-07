@@ -1,0 +1,9 @@
+This is a inferfaces for the Sequencescape API based on
+jQuery mobile. It needs to be served from the same location
+as sequencescape.
+
+If you use nginx then add the following:
+
+locations /apps/ {
+  alias <where yours apps live>;
+}
